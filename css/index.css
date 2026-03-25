@@ -1,0 +1,117 @@
+/* selector universal */
+*{
+margin: 0;
+padding: 0;
+
+
+}
+
+/* selector de tipo */
+body
+{
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #f0f4f8;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #272727;
+  text-align: center;
+
+}
+header
+{
+    background-color: #ffff;
+    color: #0b3d91;
+    padding: 24px,20px;
+}
+header h1
+{
+    font-size: 30px;
+    margin: 0;
+}
+header h2
+{
+    font-size: 24px;
+    margin: 5px 0;
+}
+header h3
+{
+    font-size: 20px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    background-color: #1e5799;
+    margin: 0;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav ul li a 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    /*efecto*/
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover 
+{
+    color: #0b3d91;
+    background-color: #ffff;
+    transform: scale(1.1);
+}
+hr
+{
+    border: 0;
+    height: 3px;
+    background-color: #0b3d91;
+    margin: 30px 0;
+    border-radius: 2px;
+
+}
+
+section img
+{
+    width: 200px;
+    border-radius: 100px;
+    transition: all 0.3 ease;
+    margin: 20px 0;
+}
+
+section img:hover
+{
+    transform: scale(1.1);
+}
+
+footer
+{
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5;
+
+}
+
+/*selector de clase*/
+
+.contenedor
+{
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0,0, 0.15);
+    text-align: center;
+    
+}
