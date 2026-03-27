@@ -1,0 +1,70 @@
+/* selector universal */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #f0f4f8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #272727;
+    text-align: center;
+}
+
+/* selector de tipo */
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+button:hover {
+    background-color: antiquewhite;
+    color: #0a1f44;
+    font-size: 20px;
+    transition: all 0.3 ease;
+}
+
+input,textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 18px;
+border: 1px solid #ccc;
+border-radius: 8px;
+font-size: 15px;
+font-family: Raleway;
+transition: border-color 0.3 ease;
+
+}
+input :focus,textarea:focus {
+
+    border-color: #ff5a5f;
+    background-color: antiquewhite;
+    outline: none;
+}
+/* selector de clase */
+.contenedor {
+    background-color: #0a1f44;
+    color: #ffff;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 40px;
+    box-shadow: 0 6px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    max-width: 500px;
+}
