@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contenedor_wrap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(89, 204, 224);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 500px;
+    justify-content: center;
+}
+
+.item{
+    background-color: rgb(88, 221, 181);
+    width: 100px;
+    margin: 10px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 75px;
+    line-height: 75px;
+}
+.item:hover{
+    background-color: rgb(102, 206, 238);
+}
+
+.contenedor_centrado{
+    display: flex;
+    flex-direction: row;   
+    justify-items: center;
+    background-color: rgb(81, 180, 238);
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+}
+
+.contenedor_end{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;  
+    justify-items: end;
+    background-color: rgb(64, 184, 240);
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+}
+
+.contenedor_spaceAround{
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    justify-items: end;
+    background-color: rgb(70, 212, 248);
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+}
+
+.contenedor_strech{
+    display: flex;
+    flex-direction: row; 
+    justify-content: stretch;
+     justify-content: space-around;
+    background-color: rgb(54, 216, 245);
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+    height: 250px;
+}
+
+.contenedor_justificado_centrado{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center; 
+    justify-content: center;
+    background-color: rgb(61, 217, 238);
+    padding: 10px;
+    border: solid;
+    width: 1000px;
+    height: 500px;
+}
