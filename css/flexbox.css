@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}   
+ 
+    .contenedor_wrap{
+        display: flex;
+        flex-direction:row ;
+        flex-wrap: wrap;
+        background-color: rgb(34, 36, 59);
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 3px;
+        width: 500px;
+    }
+
+        .item{
+            background-color: rgb(41, 30, 88);
+            width: 100px;
+            margin: 10px;
+            border: 2px solid;
+            text-align: center;
+            font-size: 75px;
+            line-height: 75px;          
+        }
+
+        .item:hover{
+            background-color: rgb(245, 245, 245);
+            color: black;
+        }
+
+         body {
+            background-color: rgb(243, 238, 238);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;            
+         }
+
+         .contenedor_end{
+            display: flex;
+            flex-direction: row;
+            justify-items: end;
+            background-color: rgb(211, 207, 216);
+            padding: 10px;
+            border: solid;
+            width: 1000px;   
+         }
+
+        .contenedor_centrado{
+            display: flex;
+            flex-direction: row;
+            justify-items: center;
+            background-color: rgb(240, 240, 240);
+            padding: 10px;
+            border: solid;
+            width: 500px;   
+         }
+
+         .contenedor_spaceAround{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            justify-items: end;
+            background-color: rgb(177, 177, 162);
+            padding: 10px;
+            border: solid;
+            width: 1000px;   
+         }
+
+          .contenedor_stretch{
+            display: flex;
+            flex-direction: row;
+            justify-content: stretch;
+            justify-content: space-around;
+            background-color: rgb(221, 221, 199);
+            padding: 10px;
+            border: solid;
+            width: 1000px; 
+            height: 500px;  
+         }
+
+.contenedor_centrado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;    
+    background-color: rgb(241, 241, 227);
+    padding: 10px;
+    border: solid;
+    width: 500px;
+    height: 300px; 
+}

@@ -1,0 +1,83 @@
+/* Selector Universal */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    margin: 0;
+    font-family: Manrope, sans-serif;
+    background-color: #9edce7;
+}
+
+/* Selector de tipo*/
+label
+{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+
+}
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+button:hover{
+    background-color: rgb(56, 44, 219);
+    color: #0a1f44;
+    font-size: 20px;
+    transition: all 0.3 ease;
+
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    font-family: Manrope;
+    transition: border-color 0.3 ease;
+}
+
+input:focus,textarea:focus {
+    
+    border-color: #ffffff;
+    background-color: rgb(232, 232, 185);
+    outline: none;
+
+}
+
+/*Selector de clase*/
+.contenedor {
+    background-color: #052763;
+    color:#ffff;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 40px;
+    box-shadow: 0 3px 6px rgba(0, 0 ,0 , 0.15);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 40px auto;
+}
+
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
